@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main() {
+float mark1, mark2, mark3, mark4, mark5;
+float sum, average;
+printf("Enter the mark of subject 1: ");
+scanf("%f", &mark1);
+printf("Enter the mark of subject 2: ");
+scanf("%f", &mark2);
+printf("Enter the mark of subject 3: ");
+scanf("%f", &mark3);
+printf("Enter the mark of subject 4: ");
+scanf("%f", &mark4);
+printf("Enter the mark of subject 5: ");
+scanf("%f", &mark5);
+sum = mark1 + mark2 + mark3 + mark4 + mark5;
+average = sum / 5.0;
+printf("The sum of the marks is: %.2f\n", sum);
+printf("The average of the marks is: %.2f\n", average);
+printf("Aditya Mehta- Bca Shift1 Section A");
+return 0;
+}
