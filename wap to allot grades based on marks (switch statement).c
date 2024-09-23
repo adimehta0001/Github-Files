@@ -12,7 +12,7 @@ int main()
         case 'B':
         printf("Good\n");
         break;
-        case 'C':
+        case 'C': 
         printf("Fair Enough\n");
         break ;
         case 'D':
