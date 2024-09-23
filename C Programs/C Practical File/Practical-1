@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main() {
-    printf("Hello, World!\n"); // \n is an escape sequence for a new line
-    printf("Hello\tWorld!\n"); // \t is an escape sequence for a tab
-    printf("Hello\bWorld!\n"); // \b is an escape sequence for a backspace
-    printf("Hello\rWorld!\n"); // \r is an escape sequence for a carriage return
-    printf("Hello\fWorld!\n"); // \f is an escape sequence for a form feed
-    printf("Hello\aWorld!\n"); // \a is an escape sequence for an alert (bell)
-    printf("Hello\'World!\n"); // \' is an escape sequence for a single quote
-    printf("Hello\"World!\n"); // \" is an escape sequence for a double quote
-    printf("Hello\\World!\n"); // \\ is an escape sequence for a backslash
-    printf("Hello\?World!\n"); // \? is an escape sequence for a question mark
-    printf("Hello\0World!\n"); // \0 is an escape sequence for a null character
-    printf("Aditya Mehta- Bca Shift1 Section A");
-    return 0;
+printf("Hello, World!\n"); // \n is an escape sequence for a new line
+printf("Hello\tWorld!\n"); // \t is an escape sequence for a tab
+printf("Hello\bWorld!\n"); // \b is an escape sequence for a backspace
+printf("Hello\rWorld!\n"); // \r is an escape sequence for a carriage return
+printf("Hello\fWorld!\n"); // \f is an escape sequence for a form feed
+printf("Hello\aWorld!\n"); // \a is an escape sequence for an alert (bell)
+printf("Hello\'World!\n"); // \' is an escape sequence for a single quote
+printf("Hello\"World!\n"); // \" is an escape sequence for a double quote
+printf("Hello\\World!\n"); // \\ is an escape sequence for a backslash
+printf("Hello\?World!\n"); // \? is an escape sequence for a question mark
+printf("Hello\0World!\n"); // \0 is an escape sequence for a null character
+printf("Aditya Mehta- Bca Shift1 Section A");
+return 0;
 }
