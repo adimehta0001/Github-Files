@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main() {
+ int a;
+ int b;
+float c;
+float d;
+printf("Enter a variable: ");
+scanf("%d", &a);
+printf("Enter another variable: ");
+scanf("%d", &b);
+printf("Enter a float variable: ");
+scanf("%f", &c);
+printf("Enter another float variable: ");
+scanf("%f", &d);
+printf("The value of the first variable is %d\n", a);
+printf("The value of the second variable is %d\n", b);
+printf("The value of the first float variable is %f\n", c);
+printf("The value of the second float variable is %f\n", d);
+printf("Aditya Mehta- Bca Shift1 Section A");
+return 0;
+}

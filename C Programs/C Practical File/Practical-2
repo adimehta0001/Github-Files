@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+int iVar1 = 10; 
+int iVar2; 
+iVar2 = 20; 
+const int iConst = 30; 
+printf("Integer Variables and Constants:\n");
+printf("iVar1 = %d\n", iVar1);
+printf("iVar2 = %d\n", iVar2);
+printf("iConst = %d\n", iConst);
+    // Floating Point Variables and Constants
+float fVar1 = 3.14;
+float fVar2; 
+fVar2 = 2.71; 
+const float fConst = 1.62; 
+printf("\nFloating Point Variables and Constants:\n");
+printf("fVar1 = %f\n", fVar1);
+printf("fVar2 = %f\n", fVar2);
+printf("fConst = %f\n", fConst);
+
+return 0;
+}
