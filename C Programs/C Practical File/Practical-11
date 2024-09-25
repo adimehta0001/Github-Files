@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+int choice, hours, minutes, seconds;
+
+printf("Time Conversion Program\n");
+printf("1. Hours to Seconds\n");
+printf("2. Hours to Minutes\n");
+printf("3. Minutes to Seconds\n");
+printf("Enter your choice: ");
+scanf("%d", &choice);
+if (choice == 1) {
+printf("Enter hours: ");
+scanf("%d", &hours);
+seconds = hours * 3600;
+printf("%d hours is equal to %d seconds\n", hours, seconds);
+} else if (choice == 2) {
+printf("Enter hours: ");
+scanf("%d", &hours);
+minutes = hours * 60;
+printf("%d hours is equal to %d minutes\n", hours, minutes);
+} else if (choice == 3) {
+printf("Enter minutes: ");
+scanf("%d", &minutes);
+ seconds = minutes * 60;
+printf("%d minutes is equal to %d seconds\n", minutes, seconds);
+} else {
+printf("Invalid choice\n");
+}
+printf("Aditya Mehta BCA Shift-1 Section A\n");
+return 0;
+}

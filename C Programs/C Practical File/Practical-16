@@ -1,0 +1,30 @@
+#include <stdio.h>
+#define discount 0.01
+int main() 
+{
+    // program to read value from user for 3 products (item number, quantity, price). Find the total bil value and display also allow a discount of 10% on the total bill and display the net bill
+ 
+int itemNumber;
+int quantity;
+int price;
+int totalPrice;
+float netbill;
+
+printf("Name: Aditya Mehta \nClass: 1A\n\v");
+printf("Write the item number: ");
+scanf("%d", &itemNumber);
+printf("Write the quantity: ");
+scanf("%d", &quantity);
+printf("Write the price: ");
+scanf("%d", &price);
+totalPrice = quantity * price; 
+printf("Item Number: %d\n", itemNumber);
+printf("Quantity: %d\n", quantity);
+printf("Price: %d\n", price);
+printf("Total Price: %d\n", totalPrice); 
+printf("the discount applied is of 10%");
+
+netbill= totalPrice-(totalPrice*discount);
+printf("The Net Bill Value after the discount is: %.2f", netbill);
+return 0;
+Practical-17

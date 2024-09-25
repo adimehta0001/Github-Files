@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main() {
+char char1 = 'a';
+char char2 = 'b';
+int asciiSumAdd = char1 + char2;
+int asciiSumMul = char1 * char2;
+int asciiSumDiv = char1 / char2;
+int asciiSumSub = char1 - char2;
+printf("The sum of ASCII values is %c and its ASCII value is %d\n", asciiSumAdd, asciiSumAdd);
+printf("The product of ASCII values is %c and its ASCII value is %d\n", asciiSumMul, asciiSumMul);
+printf("The division of ASCII values is %c and its ASCII value is %d\n", asciiSumDiv, asciiSumDiv);
+printf("The difference of ASCII values is %c and its ASCII value is %d\n", asciiSumSub, asciiSumSub);
+printf("Aditya Mehta Bca Shift1 Section A")
+return 0;
+}

@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+char c1, c2;
+int ascii1, ascii2, result;
+printf("Enter the first character: ");
+scanf(" %c", &c1);
+printf("Enter the second character: ");
+scanf(" %c", &c2);
+ascii1 = (int)c1; 
+ascii2 = (int)c2; 
+printf("ASCII value of %c: %d\n", c1, ascii1);
+printf("ASCII value of %c: %d\n", c2, ascii2);
+    // Apply mathematical operations on ASCII values
+result = ascii1 + ascii2;
+printf("Addition: %d\n", result);
+result = ascii1 - ascii2;
+printf("Subtraction: %d\n", result);
+result = ascii1 * ascii2;
+printf("Multiplication: %d\n", result);
+if (ascii2 != 0) {
+result = ascii1 / ascii2;
+printf("Division: %d\n", result);
+} else {
+printf("Cannot divide by zero!\n");
+}
+result = ascii1 % ascii2;
+printf("Modulus: %d\n", result);
+printf("Aditya Mehta BCA Section A Shift-1")
+return 0;
+}
