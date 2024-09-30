@@ -1,0 +1,68 @@
+def calculate_bmi(weight, height):
+    bmi = weight / (height ** 2)
+    return bmi
+
+def get_bmi_category(bmi):
+    if bmi < 18.5:
+        return "Underweight"
+    elif bmi < 25:
+        return "Normal"
+                                                                                                            
+    elif bmi < 30:
+        return "Overweight"
+    else:
+        return "Obese"
+
+def get_diet_recommendations(bmi_category):
+    if bmi_category == "Underweight":
+        return "Eat more calories than you burn. Focus on nutrient-dense foods like lean proteins, whole grains, and healthy fats."
+    elif bmi_category == "Normal":
+        return "Maintain a balanced diet with plenty of fruits, vegetables, whole grains, and lean proteins."
+    elif bmi_category == "Overweight":
+        return "Reduce your daily caloric intake and focus on whole, unprocessed foods like vegetables, fruits, and whole grains."
+    else:
+        return "Significantly reduce your daily caloric intake and focus on whole, unprocessed foods like vegetables, fruits, and whole grains."
+
+def get_exercise_recommendations(bmi_category):
+    if bmi_category == "Underweight":
+        return "Focus on strength training exercises to build muscle mass. Aim for 2-3 sets of 8-12 reps per exercise."
+    elif bmi_category == "Normal":
+        return "Aim for at least 150 minutes of moderate-intensity aerobic exercise per week. Include strength training exercises 2-3 times per week."
+    elif bmi_category == "Overweight":
+        return "Aim for at least 150 minutes of moderate-intensity aerobic exercise per week. Include strength training exercises 2-3 times per week. Focus on high-intensity interval training (HIIT) for weight loss."
+    else:
+        return "Aim for at least 150 minutes of moderate-intensity aerobic exercise per week. Include strength training exercises 2-3 times per week. Focus on high-intensity interval training (HIIT) for weight loss."
+
+def get_tips(bmi_category):
+    if bmi_category == "Underweight":
+        return "Eat frequently to keep your metabolism boosted. Avoid skipping meals."
+    elif bmi_category == "Normal":
+        return "Stay hydrated by drinking plenty of water throughout the day. Aim for 7-8 hours of sleep per night."
+    elif bmi_category == "Overweight":
+        return "Keep track of your daily food intake using a food diary. Avoid eating in front of screens."
+    else:
+        return "Seek support from a healthcare professional or a registered dietitian to create a personalized weight loss plan."
+
+def main():
+    print("Welcome to the Fitness App!")
+    weight = float(input("Enter your weight in kg: "))
+    height = float(input("Enter your height in meters: "))
+    gender = input("Enter your gender (male/female): ")
+
+    bmi = calculate_bmi(weight, height)
+    bmi_category = get_bmi_category(bmi)
+
+    print(f"Your BMI is: {bmi:.2f}")
+    print(f"Your BMI category is: {bmi_category}")
+
+    print("Diet Recommendations:")
+    print(get_diet_recommendations(bmi_category))
+
+    print("Exercise Recommendations:")
+    print(get_exercise_recommendations(bmi_category))
+
+    print("Tips:")
+    print(get_tips(bmi_category))
+
+if __name__ == "__main__":
+    main()

@@ -2,7 +2,7 @@
 #define discount 0.01
 int main() 
 {
-    // program to read value from user for 3 products (item number, quantity, price). Find the total bil value and display also allow a discount of 10% on the total bill and display the net bill
+// program to read value from user for 3 products (item number, quantity, price). Find the total bil value and display also allow a discount of 10% on the total bill and display the net bill
  
 int itemNumber;
 int quantity;
@@ -27,4 +27,3 @@ printf("the discount applied is of 10%");
 netbill= totalPrice-(totalPrice*discount);
 printf("The Net Bill Value after the discount is: %.2f", netbill);
 return 0;
-Practical-17
