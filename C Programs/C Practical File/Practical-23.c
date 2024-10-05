@@ -41,6 +41,6 @@ int main() {
             printf("Error: Invalid operator.\n");
             break;
     }
-printf("Aditya Mehta VIPS BCA Shift-1A)
+printf("Aditya Mehta VIPS BCA Shift-1A);
     return 0;
 }
