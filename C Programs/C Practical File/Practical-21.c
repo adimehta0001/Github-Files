@@ -3,7 +3,7 @@
 int main() {
     int marks;
 
-    printf("Enter your average marks: ");
+    printf("Enter your average marksu: ");
     scanf("%d", &marks);
 
     if (marks >= 80 && marks <= 100) {
